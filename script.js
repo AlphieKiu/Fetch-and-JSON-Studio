@@ -17,11 +17,7 @@ function init() {
                                 </div>
                             <img class="avatar" src="${json[i].picture}">
                             </div>
-                        </div>
-                    `
-                if (json[i].active === "true") {
-                    console.log("YAY")
-                }
+                        </div> `
             };
         });
 
